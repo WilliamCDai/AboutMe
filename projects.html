@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>
+            My Projects
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+
+        <div class="bubble navbar">
+            <button class="button navbutton" onclick="changePage(1)">
+                Home
+            </button>
+            <button class="button navbutton" onclick="changePage(2)">
+                Experiences
+            </button>
+            <button class="button navbutton" style="background-color: #E0DAC6; color: #051e39;">
+                Projects
+            </button>
+            <button class="button navbutton" onclick="changePage(4)">
+                Contact
+            </button>
+        </div>
+        
+        <div style = "width: 70%; margin: auto">   
+            <div class = "row">
+                <div class = "column">     
+                    <div class = "container">
+                        <img src="images/GTVisualizer.png">    
+                        <button class = "bubble" onmouseover="mOver(this)" onmouseout="mOut(this)" style="font-size: 20px; color: #0C5560;">
+                            <b>Graph Theory Visualizer</b>
+                        </button>
+                    </div>
+                </div>
+
+                <div class = "column">
+                    <div class = "container">
+                        <img src="images/TextDrop.png">
+                        <button class = "bubble" onmouseover="mOver(this)" onmouseout="mOut(this)" style="font-size: 20px; color: #0C5560;">
+                            <b>TextDrop</b>
+                        </button>
+                    </div>
+                </div>
+
+                <div class = "column">   
+                    <div class = "container">
+                        <img src="images/graph.png">    
+                        <button class = "bubble" onmouseover="mOver(this)" onmouseout="mOut(this)">
+                            Graph Theory Algorithm Visualizer
+                        </button>
+                    </div>               
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            My Experiences
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body onload = "addEvents()">
+        <div class="bubble navbar">
+            <button class="button navbutton" onclick="changePage(1)">
+                Home
+            </button>
+            <button class="button navbutton" style="background-color: #E0DAC6; color: #051e39;">
+                Experiences
+            </button>
+            <button class="button navbutton" onclick="changePage(3)">
+                Projects
+            </button>
+            <button class="button navbutton" onclick="changePage(4)">
+                Contact
+            </button>
+        </div>
+
+        <div class="bubble copyright" style="margin-top: 30px">
+            <p>
+                While many of my accumulated experiences have a strong focus on problem solving, I have also not shied away from 
+                other types of challenges. From being an athlete to communicating with patient families, I have also built up my
+                ability in communication, my ability to persevere, and my ability to adapt to unfamiliar situations.
+            </p>
+        </div>
+
+        <div style="width: 70%; margin: auto;">
+
+            <div class="bubble outside" id = "260">
+                <button class="button collapsible">
+                    Teaching Assistant | TTMath | July 2022 - April 2024
+                </button>
+                <div class = "bubble details">
+                    <li>Independently instructed homework takeup sessions.</li>
+                    <li>Assisted during classes by explaining in more detail topics that students had trouble understanding such
+                        as the roots of unity.</li>
+                    <li>Guided students during problem solving sessions with hints and eventually provided solutions.</li>
+                    <li>Taught topics up to olympiad level such as functional equations, inequalities, graph theory, and p-adic valuations.</li>
+                </div>
+            </div>
+            <div class="bubble outside" id = "320">
+                <button class="button collapsible">
+                    Student Researcher | Scholar Launch | July 2023 - September 2023
+                </button>
+                <div class = "bubble details">
+                    <li>Learned about various machine learning models such as decision trees, neural networks, and support vector machines.</li>
+                    <li>Utilized Python libraries Scikit-learn and Pandas to implement aforementioned models on financial data.</li>
+                    <li>As a research project, compared various hyperparameter-tuning schemes on Convolutional Neural Networks such random search, grid search, and Bayesian Optimization.</li>
+                    <li>Conducted a literature review on existing papers on hyperparameter-tuning schemes.</li>
+                    <li>Implemented a neural network and hyperparameter-tuning schemes from scratch using only Numpy to effectively compare the various schemes.</li>
+                </div>
+            </div>
+            <div class="bubble outside" id = "320">
+                <button class="button collapsible">
+                    Competitive Math and Computer Science | July 2018 - Present
+                </button>
+                <div class = "bubble details">
+                    <li>Progressively gained knowledge in mathematics until reaching university-level topics such as projective geometry and game theory.</li>
+                    <li>Utilized Java and C++ efficiently.</li>
+                    <li>Achieved considerable success with Bronze and Silver in the Canadian Computing Olympiad, as well as qualifying for the Canadian Mathematical Olympiad,
+                        Asian Pacific Mathematical Olympiad, and USA Mathematical Olympiad (Bronze).
+                    </li>
+                    <li>Participated in team mathematics contests such as the Harvard MIT Math Tournament.</li>
+                    <li>Gained exposure to academia with seminars at events including Computational Biology by Forbes Burkowski and Algebraic Combinatorics by Elnaz Pilehrood.</li>
+                </div>
+            </div>
+            <div class="bubble outside" id = "260">
+                <button class="button collapsible">
+                    Student | CMS Winter Camp & IdeaMATH | 2019 - 2024
+                </button>
+                <div class = "bubble details">
+                    <li>At IdeaMATH 2019, built up basic mathematical foundations with daily lectures in counting, algebra, and geometry.</li>
+                    <li>At Winter Camp 2023 and 2024 hosted by the Canadian Mathematical Society, built upon foundations into more advanced topics with daily lectures and seminars by graduate students and former competitors.</li>
+                    <li>Competed and conversed with the other excellent mathematicians who were invited.</li>
+                </div>
+            </div>
+            <div class="bubble outside" id = "260">
+                <button class="button collapsible">
+                    Volunteer | Toronto General Hospital | October 2023 - June 2024
+                </button>
+                <div class = "bubble details">
+                    <li>Guided patients and visitors to appropriate clinics and units.</li>
+                    <li>Acted as an intermediary between patient families and medical staff to ensure visitation does not conflict with procedures.</li>
+                    <li>Answered any logistical questions regarding the Medical Surgical ICU to reduce workload for nurses.</li>
+                    <li>Handled sensitive patient health information with discretion.</li>
+                </div>
+            </div>
+            <div class="bubble outside" id = "220">
+                <button class="button collapsible">
+                    Instructor | Olympian Swimming | June 2023 - March 2024
+                </button>
+                <div class = "bubble details">
+                    <li>Ensured the safety of both kids and adults groups of up to 5 concurrent students in the pool.</li>
+                    <li>Taught the key points of water safety, then the basics of the 4 swimming strokes.</li>
+                    <li>Motivated students to push themselves outside of their comfort zones.</li>
+                    <li>Communicated with parents about what level their child is at and how to best move forward. </li>
+                </div>
+            </div>
+            <div class="bubble outside" id = "220">
+                <button class="button collapsible">
+                    Runner | Marigold's and Onions | July 2022 - August 2022
+                </button>
+                <div class = "bubble details">
+                    <li>Staffed special events working 14-16 hour shifts for up to 9 days straight.</li>
+                    <li>Ensured that 20+ food vendors around the events grounds remained stocked with beverages.</li>
+                    <li>Plan shipments throughout the day to ensure all vendors are consistently stocked while preventing overstocking that would cause inventory to be wasted when the event ends.</li>
+                </div>
+            </div>
+            <div class="bubble outside" id = "260">
+                <button class="button collapsible">
+                    Director of Lectures | Marc Garneau Math Club | September 2021 - June 2024
+                </button>
+                <div class = "bubble details">
+                    <li>Prepared resources for and taught weekly math meetings on interesting topics to other math enthusiasts.</li>
+                    <li>Received and evaluated guest presentations, and asked for edits if needed.</li>
+                    <li>Planned and hosted the Marc Garneau Math Tournament with othe club executive and school administration.</li>
+                    <li>Set and tested problems for team selection tests and the annual Marc Garneau Math Tournament.</li>
+                </div>
+            </div>
+            <div class="bubble outside" id = "260">
+                <button class="button collapsible">
+                    Athlete | Marc Garneau Boys' Volleyball Team & Torch Swimming | 2018 - 2023
+                </button>
+                <div class = "bubble details">
+                    <li>Represented Marc Garneau Collegiate Institute throughout the season and at the regional finals as an outside hitter.</li>
+                    <li>Attended 7 a.m. multiple morning practices before school every week.</li>
+                    <li>Adhered to a strict training schedule of 4 to 5 practices a week at Torch Swimming Club for multiple years.</li>
+                    <li>Qualified for provincials at the Central C standard.</li>
+                </div>
+            </div>
+            <div class="bubble outside" id = "180">
+                <button class="button collapsible">
+                    Tutor | 2018 - 2021
+                </button>
+                <div class = "bubble details">
+                    <li>Introduced math topics not in school curriculum to young students.</li>
+                    <li>Adapted lessons and selected specific topics to better suit each individual student.</li>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

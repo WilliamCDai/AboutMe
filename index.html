@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            Hi, it's William
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+        <header>
+            Hello, I'm William
+        </header>
+
+        <div class="bubble navbar">
+            <button class="button navbutton" style="background-color: #E0DAC6; color: #051e39;">
+                Home
+            </button>
+            <button class="button navbutton" onclick="changePage(2)">
+                Experiences
+            </button>
+            <button class="button navbutton" onclick="changePage(3)">
+                Projects
+            </button>
+            <button class="button navbutton" onclick="changePage(4)">
+                Contact
+            </button>
+        </div>
+
+        <div class="flex-container">
+            <div class="bubble aboutme">
+                <h3>About Me</h3>
+                <hr>
+                <p>
+                    Currently, I am a first-year student in Software Engineering at the University of Waterloo. 
+                </p>
+                <p> 
+                    I am interested in solving key problems in mathematics and engineering: grand or mundane, novel or classic. Read more below to find out about the issues I find important. 
+                </p>
+            </div>
+
+            <div class="bubble mainbox">
+                <h3>Bio</h3>
+                <hr>
+                <p>
+                    A motif that has dominated much of my life is problem solving. I began contest math and competitive programming at ages 9 and 12, 
+                    respectively. My competitive career eventually found moderate success with awards in various contests such as the CCO, USAMO, and APMO. 
+                    Eventually, these hobbies that began as simply ways to supplement my learning has evolved into a lifelong interest in
+                    tackling the hardest problems around the world.
+                </p>
+                <p>
+                    Throughout my formative years, I have continously sought out ways to challenge myself and spur my growth. These ventures include
+                    attending Toronto's premiere science and math program, TOPS; a research experience at Scholar Launch; and attending Canada's top-ranking 
+                    engineering program at UWaterloo.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="bubble mainbox" style = "height: 600px">
+                <h3>Interests</h3>
+                <hr>
+                <b>Graph Theory</b>
+                <p>
+                    Graph theory is an interesting intersection of computer science and combinatorics, the area of math I'm strongest in. Whether by exposure or
+                    innate affinity, I've found the solutions graph theory problems to be particularly elegant. Tarjan's Algorithm for finding strongly connected 
+                    components has stuck with me particularly vividly.
+                </p>
+                <p>
+                    Although I am not super invested in P vs. NP, I personally believe that the NP-complete version of the Travelling Salesman Problem does not
+                    have a polynomial-time solution, which would imply that P is not equal to NP. Though, of course, I cannot prove this.
+                </p>
+                <b>Machine Learning</b>
+                <p>
+                    Machine learning has taken the world by storm, and shows seemingly unlimited potential in its ability to scour the internet for human knowledge 
+                    and make accurate predictions in outwardly unpredictable systems. However, Cathy O'Neil's <i>Weapons of Math Destruction</i>—albeit lacking in 
+                    convincing details, the book contains many noteworthy examples—and the more recent allegations against UnitedHealthcare on their misuse of 
+                    machine learning algorithms have shown that much of the field is grossly under-regulated. Not only does the legislation need to catch up, more 
+                    transparent machine learning models and concrete mathematical metrics must be developed in order to demand accountability. 
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
